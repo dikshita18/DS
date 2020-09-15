@@ -1,5 +1,6 @@
-#practical 1a
-list1 = [5, 4, 3, 2, 1]
+#Performing operations like sorting, reversing, searching and merging the list
+#list1
+list1 = [4, 5, 3, 1, 2]
 print("List 1: ",list1)
 
 #sorting the list1
@@ -21,8 +22,9 @@ def reverse_list1():
     
 reverse_list1()
 
-list2 = ["E", "D", "C", "B", "A"]
-print("List 2: ",list2)
+#list2
+list2 = ["E", "C", "B", "D", "A"]
+print("List 2: ", list2)
 
 #sorting the list2
 list2.sort()
