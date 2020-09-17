@@ -31,7 +31,6 @@ def insert_sort(list_students_rolls):
     
 #Bubble sort
 def bubble_sort(list_students_rolls):
-
     for i in range(len(list_students_rolls)):
         
         for j in range(len(list_students_rolls) - 1):
