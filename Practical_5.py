@@ -15,8 +15,7 @@ def binary_search(list_values, search, start, end):
 
     else:
         return binary_search(list_values, search, mid - 1, end)
-
-    
+   
 def linear_search(list_values, search):
     index_counter = 0
     list_size = len(list_values)
@@ -28,7 +27,6 @@ def linear_search(list_values, search):
             return index_counter
         index_counter += 1
     return -1
-
 
 #Taking input from the user
 ip = int(input("Enter 1 for binary search OR \nEnter 2 for linear search on list:"))
