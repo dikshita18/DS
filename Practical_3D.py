@@ -30,7 +30,7 @@ def factorial_i(n):
         return fact 
 
 num = int(input("Enter a number for finding it's factorial using iteration: "))  
-print("Factorial of",num,"using iteration is", factorial_i(num))
+print("Factorial of", num, "using iteration is", factorial_i(num))
 
 #Finding factor of number using recursion
 def factors_r(n, i):
@@ -45,7 +45,7 @@ factors_r(num, 1)
 
 #Finding factor of number using iteration
 def factors_i(n):
-   print("The factors of",n,"are:")
+   print("The factors of", n, "are:")
    for i in range(1, n + 1):
        if n % i == 0:
            print(i, end = " ")
