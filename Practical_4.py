@@ -1,4 +1,3 @@
-
 #Performing Queue operations using Circular Array implementation
 class ArrayQueue:
     
@@ -38,7 +37,7 @@ class ArrayQueue:
 
     def enqueue(self, e):
         if self._size == len(self._data):
-            self._resize(2  * len(self._data)) # double the array size 
+            self._resize(2 * len(self._data)) # double the array size 
         avail = (self._front + self._size) % len(self._data)
         self._data[avail] = e
         self._size += 1
